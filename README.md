@@ -1,2 +1,2 @@
-# Diabedect
- Diabetic Rentipathy App
+# dr_detection
+ 

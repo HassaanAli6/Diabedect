@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "177168874372",
+    "project_id": "diabetesdetection-a2663",
+    "storage_bucket": "diabetesdetection-a2663.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177168874372:android:eed1b05cc8174b0c057bd1",
+        "android_client_info": {
+          "package_name": "com.example.dr_detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRxGUd6HqpHJys0fHu2q5989otWBUeRRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
