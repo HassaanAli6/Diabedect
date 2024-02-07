@@ -44,6 +44,12 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
           crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Image.asset(
+              'assets/Eye.PNG', // Replace with your image path
+              width: 150, // Adjust width as needed
+              height: 150, // Adjust height as needed
+              // You can add more properties to customize the image display
+            ),
             Text(
               'Patient Profile Creation',
               style: TextStyle(
