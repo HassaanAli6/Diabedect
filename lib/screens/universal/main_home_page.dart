@@ -1,4 +1,3 @@
-import 'package:dr_detection/Hscreen.dart';
 import 'package:dr_detection/controllers/signin_signup_controller.dart';
 import 'package:dr_detection/screens/admin/admin_home_screen.dart';
 import 'package:dr_detection/screens/patient/patient_home_screen.dart';
@@ -27,7 +26,7 @@ class _MainHomePageState extends State<MainHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: controller.currentUser!.uid == 'mpHrAx83p1RZ6TrV9XMywKBhwWr2'? AdminHomeScreen() : controller.isDoc? DoctorHomeScreen(): PatientHomeScreen(),
+      body: controller.currentUser!.uid == 'AXqFbwIarucPS2srt3ydphaVkOl1'? AdminHomeScreen() : controller.isDoc? DoctorHomeScreen(): PatientHomeScreen(),
     );
   }
 }

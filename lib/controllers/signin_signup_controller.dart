@@ -65,7 +65,7 @@ class SigninSignupController extends GetxController{
         email: email,
         password: password,
       );
-      if(userCredential.user!.uid == 'mpHrAx83p1RZ6TrV9XMywKBhwWr2'){
+      if(userCredential.user!.uid == 'AXqFbwIarucPS2srt3ydphaVkOl1'){
         Get.offAll(()=> AdminHomeScreen());
 
       }else{

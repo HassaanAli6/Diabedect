@@ -14,8 +14,6 @@ class UserInfoScreen extends StatefulWidget {
 }
 
 class _UserInfoScreenState extends State<UserInfoScreen> {
-
-
   final TextEditingController firstNameController = TextEditingController();
   final TextEditingController lastNameController = TextEditingController();
   final TextEditingController emailAddressController = TextEditingController();
@@ -25,10 +23,6 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
   final userProfileController = Get.put(UserController());
   final controller = Get.put(SigninSignupController());
   String gender = 'Male';
-
-
-
-
   @override
   void initState() {
     // TODO: implement initState
@@ -131,8 +125,6 @@ class _UserInfoScreenState extends State<UserInfoScreen> {
                       gender: gender,
                       isDoc: false
                     );
-
-
                   }else{
                     Get.snackbar("Empty fields", "Enter all fields", backgroundColor: Colors.white);
                   }
